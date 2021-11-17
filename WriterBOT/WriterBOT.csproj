@@ -16,6 +16,10 @@
     <Description>Automatically print specified texts with WriterBOT!</Description>
     <PackageProjectUrl>https://emreki.art.blog/writerbot/</PackageProjectUrl>
     <PackageIcon>logo.png</PackageIcon>
+    <RepositoryUrl>https://github.com/EmreKaraDEV/WriterBOT</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>writerbot, writer, write, writer-app, writer-application, writer-software,</PackageTags>
+    <Copyright>Powered by Emreki</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
@@ -24,6 +28,10 @@
 
   <ItemGroup>
     <None Include="..\..\..\Backups\WriterBOT\logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
