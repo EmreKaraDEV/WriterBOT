@@ -314,7 +314,7 @@ namespace WriterBOT
                     {
                         info.Text = "WriterBOT is running! If WriterBOT itself becomes an active window while it is running, it may not work properly.";
                         progressBar.Maximum = maxTimeSecond;
-                        if(timeSecond >= maxTimeSecond - 100) { 
+                        if(workModeBox.SelectedIndex == 10 && timeSecond >= maxTimeSecond - 100) { 
                             timeSecond = delayTime + 1; 
                         } //Infinity Mode
                         if (timeSecond >= maxTimeSecond && workModeBox.SelectedIndex != 10) {
