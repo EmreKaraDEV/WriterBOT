@@ -31,3 +31,17 @@ Ram: Average 20MB
 Application size: 28MB
 
 Project size: 85MB
+
+# Application Features
+
+Automatically print the texts you enter!
+
+Try different working modes!
+
+You can create up to 32 lines if you want.
+
+Set the delay time before the write operation starts.
+
+If you want, WriterBOT can press the Enter key after all the processes are finished!
+
+If you want, WriterBOT can start the writing process with the Notepad application.
