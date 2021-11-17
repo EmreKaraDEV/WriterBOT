@@ -36,7 +36,7 @@ Project size: 85MB
 
 Automatically print the texts you enter!
 
-Try different working modes!
+Try different work modes!
 
 You can create up to 32 lines if you want.
 
