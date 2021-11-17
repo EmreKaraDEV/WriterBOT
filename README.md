@@ -1,17 +1,17 @@
 # WriterBOT
-Powered By Emreki.
+An open source project. Powered By Emreki.
 
 Automatically print specified texts with WriterBOT!
 
 This application was developed with .Net 6. Developed with Windows 11.
 
-WebSite = https://emreki.art.blog/
+Download WriteBOT App: https://emreki.art.blog/writerbot/
 
-WriterBOT Web Page: https://emreki.art.blog/writerbot/
+WebSite = https://emreki.art.blog/
 
 GitHub = https://github.com/EmreKaraDEV
 
-WriterBOT GitHub Page: https://github.com/EmreKaraDEV/WriterBOT
+WriterBOT Source Code: https://github.com/EmreKaraDEV/WriterBOT
 
 YouTube = https://www.youtube.com/c/EmreKaraTV
 
