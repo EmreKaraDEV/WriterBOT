@@ -88,6 +88,11 @@ namespace WriterBOT
             else if(isRunning == false)
             {
                 timerCore.Enabled = false;
+                //If requested, an automatic Enter key is sent after all processes are completed.
+                if (Properties.Settings.Default.pressEnterWhenProcessFinished == true)
+                {
+                    SendKeys.Send("{ENTER}");
+                }
                 runBtn.Text = "Run WriterBOT";
                 progressBar.Value = 0;
                 info.Text = "WriterBOT isn't running now!";
@@ -314,7 +319,7 @@ namespace WriterBOT
                     {
                         info.Text = "WriterBOT is running! If WriterBOT itself becomes an active window while it is running, it may not work properly.";
                         progressBar.Maximum = maxTimeSecond;
-                        if(timeSecond >= maxTimeSecond - 100) { 
+                        if(workModeBox.SelectedIndex == 10 && timeSecond >= maxTimeSecond - 100) { 
                             timeSecond = delayTime + 1; 
                         } //Infinity Mode
                         if (timeSecond >= maxTimeSecond && workModeBox.SelectedIndex != 10) {
@@ -412,9 +417,6 @@ namespace WriterBOT
                     SendKeys.Send(txtBox.Text);
                 } //It automatically sends Shift-Enter after writing each line.
                 SendKeys.Send("+{ENTER}");
-            } //If requested, an automatic Enter key is sent after all processes are completed.
-            if (Properties.Settings.Default.pressEnterWhenProcessFinished == true) {
-                SendKeys.Send("{ENTER}"); 
             }
         }
 
