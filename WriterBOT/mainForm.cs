@@ -415,8 +415,8 @@ namespace WriterBOT
                 if (txtBox.Text != "")
                 {
                     SendKeys.Send(txtBox.Text);
-                } //It automatically sends Shift-Enter after writing each line.
-                SendKeys.Send("+{ENTER}");
+                } 
+                SendKeys.Send("+{ENTER}"); //It automatically sends Shift-Enter after writing each line.
             }
         }
 
