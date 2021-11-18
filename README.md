@@ -9,6 +9,8 @@ This application was developed with Visual Studio 2022, .Net 6. Developed with W
 
 [![WriterBOT Video](https://i9.ytimg.com/vi_webp/kohjnbm6i8M/mqdefault.webp?v=619648b2&sqp=CPSQ2YwG&rs=AOn4CLC3BawSfIycQGWZPvWIZumyDuogaQ)](https://www.youtube.com/watch?v=kohjnbm6i8M)
 
+If the video does not open: https://youtu.be/kohjnbm6i8M
+
 # Links
 
 Download WriteBOT App: https://emreki.art.blog/writerbot/
